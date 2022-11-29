@@ -1,9 +1,9 @@
 const input = require('readline-sync');
 
-var MasukkanNilai = input.questionInt('Masukkan angka = ');
+var MasukkanNilai1 = input.questionInt('Masukkan angka = ');
 
-if(MasukkanNilai & 2) {
+if(MasukkanNilai1 % 2 == 0) {
     console.log('Bilangan Genap');
-} else {
+}else{
     console.log('Bilangan Ganjil');
 }
